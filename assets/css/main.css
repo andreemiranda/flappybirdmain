@@ -1,0 +1,45 @@
+@import url("barriers.css");
+@import url("flappybird.css");
+@import url("cannon.css");
+@import url("control.css");
+@import url("modal.css");
+@font-face {
+    font-family: "Pixel";
+    src: url("../fonts/Pixel.ttf");
+}
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#place-game{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: deepskyblue;
+    overflow: hidden;
+}
+
+
+#painel{
+    position: absolute;
+    top:10px;
+    left:30px;
+    z-index: 100;
+}
+#score{
+    width: 50px;
+    border: 2px solid white;
+    color: white;
+    font-size: 20pt;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    left: 50%;
+    z-index: 100;
+}
