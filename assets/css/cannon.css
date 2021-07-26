@@ -1,0 +1,53 @@
+.cannon{
+    position: absolute;
+    width: 162px;
+    height: 75px;
+    top: -10px;
+    left: 100%;
+    z-index: 100;
+    transform: translate(-100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+
+}
+.cannon img{
+    width: 100%;
+}
+.cannon.hide{
+    left: 200%;
+}
+.cannonball{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: 99;
+    border-radius: 360px;
+    animation: ball .2s infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cannonball img{
+    width: 100%;
+}
+/* @keyframes ball {
+    0%{
+        background: linear-gradient(90deg,black,black,white,black);
+    }
+    25%{
+        background: linear-gradient(45deg,black,black,white,black);
+    }
+    50%{
+        background: linear-gradient(-90deg,black,black,white,black);
+    }
+    75%{
+        background: linear-gradient(-180deg,black,black,white,black);
+    }
+    100%{
+        background: linear-gradient(90deg,black,black,white,black);
+    }
+} */
+
